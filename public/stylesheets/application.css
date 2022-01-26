@@ -1,0 +1,35 @@
+body{
+  margin: 0px;
+  font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+  color: #141414;
+}
+
+h1, h2, h3, p{
+  margin: 0px;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.header{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
