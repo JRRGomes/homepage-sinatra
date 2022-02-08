@@ -5,7 +5,8 @@ source "https://rubygems.org"
 gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'json'
-gem 'rack'
-gem 'activesupport'
-gem 'rspec', :require => 'spec'
-gem 'rack-test'
+
+group :test do
+  gem 'rack-test'
+  gem 'rspec', :require => 'spec'
+end
