@@ -4,7 +4,7 @@ require './app.rb'
 require 'rspec'
 require 'rack/test'
 
-RSpec.describe 'The Homepage App' do
+describe 'The Homepage App' do
   include Rack::Test::Methods
 
   def app
